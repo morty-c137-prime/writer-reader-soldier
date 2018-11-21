@@ -6,7 +6,7 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceRoot}/target/debug/writer-reader-soldier.exe",
-            "args": [],
+            "args": ["-d"],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],

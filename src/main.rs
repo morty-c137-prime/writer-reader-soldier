@@ -50,6 +50,8 @@ fn main() {
         .version("1.0")
         .author("Richard Alvarez <rawalvarez731@gmail.com>")
         .about("Formatted files into a pretty pdfs")
+        .arg(Arg::with_name("debug_mode")
+            .short("d"))
         .arg(Arg::with_name("files")
             .short("f")
             .long("files")
